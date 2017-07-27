@@ -1,0 +1,183 @@
+/*NAVIGATION BARS*/
+body {
+    overflow: hidden;
+}
+.overHeadBar {
+    height: 70;
+    z-index: 100;
+    width: 100%;
+    background: black;
+    position: relative;
+}
+.openNav {
+    font-size: 120%;
+    margin-left: 30;
+    color: white;
+}
+.title {
+    font-weight: 900;
+    color: white;
+    text-shadow: 0 0 10px black;
+    font-size: 160%;
+    margin-left: 300;
+}
+.code {
+    color: lightgreen;
+}
+.pointer {
+    cursor: pointer!important;
+}
+
+.navText {
+    font-weight: 700;
+    background-color: black;
+    text-shadow: 0 0 10px black;
+    color: white;
+    height: 70;
+}
+.miniTitle {
+    margin-left: 30;
+}
+.width {
+    width: 200;
+}
+
+/* MAIN */
+.main {
+    box-sizing: border-box;
+    padding-left: 300;
+    background-color: rgba(0,0,0,.7);
+    height: calc(100% - 70px);
+}
+.main2 {
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,.7);
+    min-height: calc(100% - 175px);
+}
+.containerMain {
+    height: 100%;
+    overflow: auto;
+    z-index: 1;
+    max-width: 1000;
+    background-image: url(../img/ep_naturalblack.png);
+    background-size: cover;
+    margin: 0 auto;
+    position: relative;
+}
+.hero {
+    height: 175;
+    z-index: 50;
+    position: relative;
+    background-image: url(../img/stardust.png);
+}
+.heroTitle {
+    margin: 0 auto;
+    color: white;
+    text-shadow: 0 0 10px black;
+    font-weight: 800;
+    font-size: 200%;
+}
+.subtitle {
+    font-size: 60%;
+    font-weight: 500;
+    text-align: center;
+    color: 
+}
+.tiles {
+    margin: 0 auto;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.tile {
+    border: solid 1px transparent;
+    position: relative;
+    float: left;
+    background-color: #CFD8DC;
+    min-width: 350;
+    max-width: 450;
+    min-height: 170;
+}
+.tile:hover {
+    z-index: 100;
+}
+.cardDesc {
+    margin-top: 20;
+    margin-left: 15;
+    font-weight: 700;
+}
+.cardContent {
+    box-sizing: border-box;
+    padding: 15;
+    font-size: 90%;
+    font-weight: 500;
+    padding-top: 4;
+}
+.mission {
+    background-color: #ECEFF1;
+}
+.team {
+    background-color: #EEEEEE;
+    max-width: 580;
+}
+.profiles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 15;
+    padding-right: 15;
+}
+.modalTitle {
+    font-size: 120%;
+    font-weight: 800;}
+.name {
+    font-weight: 500;
+}
+.class {
+    background-color: #EEEEEE;
+}
+.class2 {
+    background-color: #E0E0E0;
+}
+.class3 {
+    background-color: #F5F5F5;
+}
+.className {
+    float: right;
+    font-size: 80%;
+    margin-right: 30;
+    color: #37474F;
+}
+.whiter {
+    background-color: #FAFAFA;
+}
+.heroMessage {
+    padding: 20;
+    max-width: 600;
+    padding-bottom: 0;
+    margin: 0 auto;
+
+}
+.heroButton {
+    padding: 20;
+    padding-top: 20;
+    padding-bottom: 0;
+    max-width: 600;
+    margin: 0 auto;
+    color: lightgreen!important;
+}
+.lightgreen {
+    color: lightgreen!important;
+}
+/* RESPONSIVE */ 
+@media only screen and (max-width : 992px) {
+    .title {
+        margin-left: 20;
+    }
+    .main {
+        padding-left: 0;
+    }
+    .heroTitle {
+        font-size: 150%;
+    }
+}

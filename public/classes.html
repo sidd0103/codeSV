@@ -1,0 +1,169 @@
+<html>
+    <head>
+        <!--LIBRARIES-->
+        <script src="js/jquery-3.2.1.js"></script>
+        <link href="css/materialize.css" rel="stylesheet">
+        <script src="js/materialize.js"></script>
+        <script src="js/masonry.pkgd.min.js"></script>
+        <script src="https://use.fontawesome.com/470f638731.js"></script>
+        <link href="css/animate.css" rel="stylesheet">
+        <!--EDITABLE FILES -->
+        <link href="css/mainstyle2.css" rel="stylesheet">
+        <script src="js/mainscript2.js"></script>
+        <!--RESPONSIVNESS-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Signup</title>
+        <link href="img/icon.png" rel="icon">
+    </head>
+    <body>
+        
+        
+        <!--NAVIGATION -->
+        <ul id="slide-out" class="side-nav fixed">
+            <li>
+                <div class="headerNav">
+                    <div class="z-depth-2 valign-wrapper navtext"><span class="miniTitle"><span class="code">CODE</span><span class="sv"> SILICON VALLEY</span></span></div>
+                </div>
+            </li>
+            <li>
+                <div>
+                
+                </div>
+            </li>
+            <li><a class="subheader">LOGIN</a></li>
+            <li><a class="width black-text grey lighten-3 waves-effect waves btn">WITH GOOGLE</a></li>
+            <li><a class="width black-text grey lighten-3 waves-effect waves btn">with CODE<span class="blacksv"> SV</span></a></li>
+            <li>
+                <div class="divider"></div>
+            </li>
+            <li><a class="subheader">NAVIGATION</a></li>
+            <li><a class="waves-effect" href="index.html">HOME</a></li>
+            <li><a class="waves-effect" href="classes.html">SIGNUP</a></li>
+            <li><a class="waves-effect" href="donate.html">DONATE</a></li>
+            <li>
+                <div class="divider"></div>
+            </li>
+            <li><a class="subheader">YOUR ACCOUNT</a></li>
+            <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+        </ul>
+        <!--MODALS-->
+        <div id="modal1" class="classModal modal">
+            <div class="modal-content">
+                <div class="modalTitle">
+                    <span>SIGNUP:</span><span class="name"> Web Development</span>
+                </div>
+                <div class="classDetails">SIGNUP DETAILS: </div>
+                <form>
+                    <div class="input-field">
+                        <select id="selectField" class="inputOption">
+                            <option value="locked" disabled selected>Choose your session</option>
+                            <option value="1">Sunday, from Jan 7th - March 11th</option>
+                            <option value="2">Sunday, from Jun 10th - July 5th</option>
+                        </select>
+                        <label>There are 2 sessions for this course.</label>
+                    </div>
+                </form>
+                <div class="classDetails">CLASS DETAILS: </div><label>Some data requires choosing a session beforehand.</label>
+                <ul class="classDataHolder collapsible" data-collapsible="accordion">
+                    <li>
+                        <div class="classDataHolder collapsible-header">DESCRIPTION</div>
+                        <div class="classDescModal classDataHolder collapsible-body"><span>Learn to code modern, responsive websites using HTML, CSS and Javascript. Build an interactive website portfolio that includes an About Me, Contact, and Projects page.</span></div>
+                    </li>
+                    <li>
+                        <div id="sessionLocked" class="classDataHolder collapsible-header">LOCATION/TIME</div>
+                        <div class="classDataHolder collapsible-body">
+                            <span>
+                                <table class="greyer">
+                                    <tr>
+                                        <td><strong>Location</strong></td>
+                                        <td id="location">--</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Time</strong></td>
+                                        <td id="time">--</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Date</strong></td>
+                                        <td id="date">--</td>
+                                    </tr>
+                                </table>
+                            </span>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="sessionLocked" class="classDataHolder collapsible-header">TEACHERS</div>
+                        <div class="classDataHolder collapsible-body"><span id="teacher"><div></div></span> </div>
+                    </li>
+                </ul>
+            </div> 
+            <div class="classModal modal-footer">
+                <a href="#!" class="white waves-effect waves btn-flat">SIGNUP</a>
+            </div>
+        </div>
+        <!--OVERHEAD TITLE BAR-->
+        <div class="valign-wrapper z-depth-3 overHeadBar">
+            <a data-activates="slide-out" class="pointer openNav button-collapse"><i class="fa fa-bars" aria-hidden="true"></i></a>
+            <div class="title">SIGNUP</div>
+            
+        </div>
+    
+        <!--MAIN AREA -->
+        <div class="main">
+            <div class="containerMain">
+                <div class="z-depth-2 h valign-wrapper hero">
+                    <div class="heroTitle animated fadeIn">
+                        <div class="center"><span class="code">CLASSES</span></div>
+                        <div class="subtitle">Classes taught by students from 9th - 12th grade</div>
+                    </div>
+                </div>
+                <div class="tiles">
+                    <div class="hoverable tile">
+                        <div class="cardDesc">DESCRIPTION</div>
+                        <div class="cardContent">At Code Silicon Valley, one of the biggest priorities we adhere to are ones that focus around integration in the real world. Each one of our classes not only teaches the specified material through a set of well developed projects and activites, but also shows students how to apply these skills in the real world.</div>
+                    </div>
+                    <div class="hoverable whiter tile">
+                        <div class="cardDesc">DETAILS</div>
+                        <div class="cardContent">Classes at Code Silicon Valley are aimed toward students ranging from 5th to 8th grade. Classes are taught by High School students who show a complex understanding of the material being taught in the class.</div>
+                    </div>
+                    <div class="hoverable mission tile">
+                        <div class="cardDesc">HOW TO SIGN UP</div>
+                        <div class="cardContent">If you are interested in a class, please first login or make an account in our website. Then, click on the class tile you want to sign up for. After you sign up, you can review your information on this website again by visiting the "My Classes" tab.</div>
+                    </div>
+                    <div class="pointer openme hoverable class tile">
+                        <div class="cardDesc">Web Development<span class="className">CLASS</span></div>
+                        <div class="cardContent">Learn to code modern, responsive websites using HTML, CSS and Javascript. Build an interactive website portfolio that includes an About Me, Contact, and Projects page.</div>
+                    </div>
+                    <div class="pointer openme hoverable class2 tile">
+                        <div class="cardDesc">App Development<span class="className">CLASS</span></div>
+                        <div class="cardContent">Learn the basics of coding in Java so that students can create their own simple desktop app at the end of the class.</div>
+                    </div>
+                    <div class="pointer openme hoverable class3 tile">
+                        <div class="cardDesc">Game Development<span class="className">CLASS</span></div>
+                        <div class="cardContent">Learn how to create and clone a popular desktop game from pure java.</div>
+                    </div>
+                
+                </div>
+            
+            </div>
+        
+            
+        
+        </div>
+    
+    
+    </body>
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+</html>
